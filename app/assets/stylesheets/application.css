@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+  font-size: 40px;
+}
+
+th,td {
+  border: solid 1px;
+  white-space: nowrap;
+  background: #eee;
+  font-size: 20px;
+}
+
+table tr:nth-child(odd) td {
+	background: #fff;
+}
+
+table {
+  font-size: 20px;
+  border-collapse:  collapse;
+  white-space: nowrap;
+}
