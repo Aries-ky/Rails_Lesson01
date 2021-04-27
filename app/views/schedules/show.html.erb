@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>タイトル:</strong>
+  <%= @schedule.title %>
+</p>
+
+<p>
+  <strong>開始日:</strong>
+  <%= @schedule.datestart %>
+</p>
+
+<p>
+  <strong>終了日:</strong>
+  <%= @schedule.dateend %>
+</p>
+
+<p>
+  <strong>メモ:</strong>
+  <%= @schedule.text %>
+</p>
+
+<%= link_to '編集', edit_schedule_path(@schedule) %> |
+<%= link_to '戻る', schedules_path %>
